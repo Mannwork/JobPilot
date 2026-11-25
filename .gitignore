@@ -1,0 +1,23 @@
+# Environment secrets (NEVER commit)
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Build outputs
+dist/
+backend/dist/
+frontend/dist/
+*.tsbuildinfo
+
+# Local runtime data & caches
+data/*.json
+*.log
+.DS_Store
+Thumbs.db
